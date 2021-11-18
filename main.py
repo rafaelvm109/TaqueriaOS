@@ -44,26 +44,29 @@ def write_message(mensaje, orden):
         MessageBody = (json.dumps(orden))
     )
 
+# agregar y modificar el round robin 
+
 # CONSTANTES
 FILLINGS = ["salsa", "guacamole", "cilantro", "cebolla"]
-MAX_FILLINGS = {"salsa": 150, "guacamole": 100, "cilantro": 200, "cebolla": 200}
+MAX_FILLINGS = {"salsa": 150, "guacamole": 100, "cilantro": 200, "cebolla": 200, "tortillas": 50}
 REFILL_TIME = {"salsa": 15, "guacamole": 20, "cilantro": 10, "cebolla": 10, "tortillas": 5}
 MEAT_TYPES = ["tripa", "cabeza", "asada", "suadero", "adobada"]
 
 
 # CLASES
 class Taquero():
-    def __init__(self, name):
+    def __init__(self, name, carnes):
         self.name = name
+        self.carnes = carnes
         self.tortillas = 50
         self.quesadillas = 5
         self.fillings = MAX_FILLINGS
         self.rest = 0 # 1000 tacos -> 30 segundos de descanso
-        self.fan = False # 600 tacos -> prender ventilador por 60
-        self.tacos = 0 # contador de tacos
+        self.fan = 0 # 600 tacos -> prender ventilador por 60
+
 
     def resting(self, sleep_time):
-        if self.tacos == 600:
+        if self.rest == 1000:
             time.sleep(sleep_time)
         # si el queue esta vacio tambien puede descansar
 
@@ -80,7 +83,31 @@ class Taquero():
     # funcion para que el taquero pueda prepara un taco tomando en cuenta el tiempo de preparo de cada ingrediente
     # 1s por taco + 0.5s por ingrediente
     def make_taco(self):
+        # Hacer taco y agregar ingredientes, al terminar un taco, se cambia el contador y se reinicia el estado del taco
+        # Si se acaba el tiempo, se guarda el estado del taco y el numero de tacos
+        # Idea: guardar estado y tacos restantes en el json
         pass
+
+    # revisa las ordenes del queue principal (basado en el tipo de carne del taquero) y las agrega a su queue especifico
+    # parametros: carnes = lista con las carnes que maneja el taquero, id = id de la ultima orden revisada por el taquero
+    def get_orders(self, carnes, id):
+        ordenes_revisadas = 0
+        while True:
+            # Agregar orden al queue del taquero
+            for i in data["orden"]:
+                if i["meat"] in carnes and i["status"] == "open" and len(queue_taquero) < 5:
+                    queue_taquero.append(i)
+            
+            id += 1
+            # Si el taquero ya reviso muchas ordenes y ya tiene algo en su queue, se detendra para que continue haciendo tacos
+            # y no este perdiendo el tiempo
+            if ordenes_revisadas == 50 and len(queue) > 0:
+                return id + 1
+                
+            # Si el taquero ya tiene 5 ordenes en su queue o termino de revisar todas las ordenes, tambien se detendra.
+            if len(queue) == 5 or len(queue_principal) == id:
+                return id
+
 
 
 # esta persona se encarga de hacer quesadillas y mandarlas a los taqueros, idealmente nunca deja de hacer quesadillas
@@ -100,14 +127,23 @@ class Chalan():
     def __init__(self, name, taquero1, taquero2):
         self.name = name
         self.taqueros = [taquero1, taquero2] # lista de taqueros del chalan
+        self.ingredientes = {"salsa": 0, "guacamole": 0, "cilantro": 0, "cebolla": 0, "tortillas": 0}
 
-    # cheacar los fillings de un taquero en especifico
-    # pensando mejor no va a ser necesario, asumiendo que el chalan sigue un ciclo infinito para rellenar
-    def checar_fillings(self, taquero):
-        pass
+    # # checar los fillings de un taquero en especifico
+    # # pensando mejor no va a ser necesario, asumiendo que el chalan sigue un ciclo infinito para rellenar
+    # def checar_fillings(self, taquero):
+    #     pass
 
     # rellenar los fillings de un taquero en especifico
     # tiempos = {"cilantro":10, "cebolla":10, "salsa":15, "guacamole":20, "tortillas":5}
     # aplicar el ciclo infinito para que el chalan nunca deje de trabajar
-    def rellenar_fillings(self, taquero):
+    def rellenar_fillings(self):
         pass
+
+
+'''
+Otras cosas:
+
+- funcion para asignar ordenes a los taqueros como un mesero +/- ???
+- 
+'''
