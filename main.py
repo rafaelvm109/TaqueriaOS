@@ -3,6 +3,16 @@ import time
 import datetime
 import boto3
 
+# json + queue de prueba
+with open('TACOS/data.json') as f:
+  data = json.load(f)
+
+queue = []
+
+for i in range(len(data)):
+    queue.append(data[i])
+
+
 # AWS STUFF
 sqs = boto3.client("sqs")
 queue_url = "https://sqs.us-east-1.amazonaws.com/292274580527/sqs_cc106_team_2"
