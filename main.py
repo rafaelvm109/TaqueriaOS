@@ -101,6 +101,7 @@ class Taquero():
         size = len(order["ingredients"])
         tipo = "quesadillas"
         time = 0
+        finish = False
 
         if order["type"] == "taco":
             tipo = "tortillas"
@@ -151,11 +152,18 @@ class Taquero():
                     order["status"] = "complete"
                     # Quitar orden del queue
                     print("Taquero {0} termino de preparar la orden {1}".format(self.name, order["part_id"]))
+                    # A G R E G A R
+                    # Al terminar la orden, revisar si todas las otras partes de la orden estan completas
+                    # Hacerlo con una funcion
                     self.queue_taquero.pop(num)
+                    finish = True
+                    return finish
                     break
         
-        order["taco_state"] = taco_state
-        print("Taquero {0} paso a la siguiente orden {1}".format(self.name, order["part_id"]))
+        if finish is False:
+            order["taco_state"] = taco_state
+            print("Taquero {0} paso a la siguiente orden {1}".format(self.name, order["part_id"]))
+            return finish
 
 
     # revisa las ordenes del queue principal (basado en el tipo de carne del taquero) y las agrega a su queue especifico
@@ -244,16 +252,20 @@ t4 = Taquero('Maokai', ['adobada'])
 def init():
     id = 0
     num = 0
+    finish = True
     
     while(True):
-        id = t1.get_orders(id)
-        t1.make_taco(num)
+        if finish is True:
+            id = t1.get_orders(id)
+            finish = False
+        
+        finish = t1.make_taco(num)
 
         num += 1
         if num >= len(t1.queue_taquero):
             num = 0
 
-        # Sigue agregar chalan o que el taquero agregue ordenes al terminar una
+        # Sigue agregar chalan como thread
 
 
 
