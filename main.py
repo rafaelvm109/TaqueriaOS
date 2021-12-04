@@ -2,10 +2,11 @@ import json
 import time
 import datetime
 import boto3
+import threading
 
 # json + queue de prueba
 with open('TACOS/data.json') as f:
-  data = json.load(f)
+    data = json.load(f)
 
 queue = []
 
@@ -54,7 +55,7 @@ def write_message(mensaje, orden):
         MessageBody = (json.dumps(orden))
     )
 
-# agregar y modificar el round robin 
+# agregar y modificar el round robin
 
 # CONSTANTES
 FILLINGS = ["salsa", "guacamole", "cilantro", "cebolla"]
@@ -82,7 +83,7 @@ class Taquero():
 
     def fan_on(self):
         self.fan = True
-    
+
     def fan_off(self):
         self.fan = False
 
@@ -107,13 +108,12 @@ class Taquero():
             for i in data["orden"]:
                 if i["meat"] in carnes and i["status"] == "open" and len(queue_taquero) < 5:
                     queue_taquero.append(i)
-            
+
             id += 1
-            # Si el taquero ya reviso muchas ordenes y ya tiene algo en su queue, se detendra para que continue haciendo tacos
-            # y no este perdiendo el tiempo
-            if ordenes_revisadas == 50 and len(queue) > 0:
-                return id + 1
-                
+
+            # E D I T A D O
+            # El taquero revisara todas las ordenes hasta tener 5 o llegar al final
+
             # Si el taquero ya tiene 5 ordenes en su queue o termino de revisar todas las ordenes, tambien se detendra.
             if len(queue) == 5 or len(queue_principal) == id:
                 return id
@@ -125,11 +125,21 @@ class Taquero():
 class Quesadillas():
     def __init__(self, name):
         self.name = name
+        self.quesadillas = 0 # N U E V O
         # otros atributos???
 
+    # N U E V O
     # 20s por quesadilla
-    def preparar_quesadillas():
-        pass
+    def preparar_quesadillas(self):
+        time.sleep(20)
+        self.quesadillas += 1
+
+    # N U E V O
+    # Para que de quesadillas a los taqueros?
+    def dar_quesadilla(self, taquero):
+        if taquero.quesadillas < 5 and self.quesadillas > 0:
+            taquero.quesadillas += 1
+            self.quesadillas -= 1
 
 
 # es possible que sea mejor hacerlo como una funcion y no como clase
@@ -144,16 +154,21 @@ class Chalan():
     # def checar_fillings(self, taquero):
     #     pass
 
+    # N U E V O
     # rellenar los fillings de un taquero en especifico
     # tiempos = {"cilantro":10, "cebolla":10, "salsa":15, "guacamole":20, "tortillas":5}
     # aplicar el ciclo infinito para que el chalan nunca deje de trabajar
-    def rellenar_fillings(self):
-        pass
+    def rellenar_fillings(self, num):
+        pos = 0
+        tiempo = 0
+        for i in self.taqueros[num].fillings:
+            self.ingredientes[pos] = MAX_FILLINGS[pos] - i
+            tiempo += (self.ingredientes[pos] * REFILL_TIME[pos]) / MAX_FILLINGS[pos]
+            pos += 1
 
+        time.sleep(tiempo)
 
-'''
-Otras cosas:
-
-- funcion para asignar ordenes a los taqueros como un mesero +/- ???
-- 
-'''
+        pos = 0
+        for i in self.taqueros[num].fillings:
+            i += self.ingredientes[pos]
+            pos += 1
