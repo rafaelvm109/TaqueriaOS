@@ -455,7 +455,7 @@ def init():
     sqs.purge_queue(QueueUrl=queue_url)
 
     # abrimos el archivo de tacos.json para rellenar el queue con las ordenes de ese archivo
-    with open('TaqueriaOS-main/data.json') as f:
+    with open('TaqueriaOS-main/tacos.json') as f:
         data = json.load(f)
 
     # mandamos todas las ordenes del json al Queue de SQS
