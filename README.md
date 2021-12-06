@@ -1,8 +1,33 @@
 # T.A.C.O.S
-## Taqueria Algoritmicamente Codificada Operating System
+Taqueria Algoritmicamente Codificada Operating System
 
-### Descripción del problema
-Se utilizará un algoritmo en una taquería para maximizar la eficiencia de los trabajadores y la entrega de órdenes. Por lo pronto, se sabe que en la taquería hay 4 taqueros divididos de la siguiente manera: 2 de Asada y Suadero, 1 de Tripa y Cabeza, y 1 de Adobada. Además, cada taquero cuenta con una cantidad limitada de tortillas e ingredientes, los cuales serán necesarios de rellenar con la ayuda del chalán en caso de que se terminen. Hay un chalán para cada dos taqueros, por lo tanto, en esta taquería hay 2 chalanes, los cuales solo pueden atender un taquero a la vez. Al igual hay una sola persona que prepara las quesadillas, la cual las entregará a los taqueros que las requieran. También es necesario considerar que cada taquero necesita prender el ventilador por 60 segundos después de preparar 600, al igual de que requiere de un descanso después de preparar 1000 tacos, si es que no tomó un descanso antes.
+## Table of contents
+* [Description](#description)
+* [Technologies](#technologies)
+* [Launch](#launch)
+* [Authors](#authors)
 
-### Solución propuesta
-Se planea utilizar para la taqueria un Round Robin para que cada taquero prepare una porción de las primeras 5 órdenes que se encuentren en su subqueue y, cuando terminen de preparar una órden, agregar la siguiente órden que se encuentre en su queue principal, si es que hay más. De esta manera, los taqueros podrán entregar las órdenes de menor duración relativamente más rápido, mientras que las órdenes de mayor duración se prepararán poco a poco hasta que esten completas. No obstante, existe la posibilidad de que todas las 5 órdenes dentro del subqueue sean ordenes de gran duración, lo cual prolongaría demasiado el waiting time de todas las órdenes que se encuentren en el queue principal.
+## Description
+Final project for Operanting System subject. The project consists of simulating the production line of a taqueria based on a few guidelines presented in a document given by the professor and a few questions taht were discussed during the class. A document explaining our solution can be found [here](https://docs.google.com/document/d/18zPksBr-USmkluBV-36lt6tJbq2uqx0TDGip3c8DBVk/edit?usp=sharing).
+
+## Technologies
+* Python 3.9.6
+  * libraries
+    * boto3
+    * datetime
+    * json
+    * logging
+    * threading
+    * time
+* Amazon SQS
+
+## Launch
+* Download or clone this github repository
+* install the required python libraries
+* run main.py
+  * main.py is going to read the orders from tacos.json and send them to SQS, if you want to load the orders directly from SQS comment lines 454-463
+
+## Authors
+This project was made by
+* [Luis Monroy](https://github.com/Lucobe419)
+* [Rafael Viana](https://github.com/rafaelvm109)
