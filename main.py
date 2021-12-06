@@ -15,7 +15,7 @@ MEAT_TYPES = ["tripa", "cabeza", "asada", "suadero", "adobada"]
 queue = []
 
 # configuraciones basicas para crear el archivo de logs
-logging.basicConfig(filename='logs.log', format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %H:%M:%S', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename='TaqueriaOS-main\logs.log', format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %H:%M:%S', encoding='utf-8', level=logging.INFO)
 
 # AWS STUFF
 sqs = boto3.client("sqs")
@@ -439,15 +439,15 @@ class Chalan():
 # -------------------------------------------------------------------
 
 # Se crean los taqueros, chalanes y quesadillera
-t1 = Taquero('Kench', ['tripa', 'cabeza'])
-t2 = Taquero('Zac', ['asada', 'suadero'])
-t3 = Taquero('Tahm', ['asada', 'suadero'])
-t4 = Taquero('Maokai', ['adobada'])
+t1 = Taquero('Andre', ['tripa', 'cabeza'])
+t2 = Taquero('Siegward', ['asada', 'suadero'])
+t3 = Taquero('Eygon', ['asada', 'suadero'])
+t4 = Taquero('Yoel', ['adobada'])
 
-c1 = Chalan('Riki', t1, t2, )
-c2 = Chalan('Federico', t3, t4)
+c1 = Chalan('Horace', t1, t2)
+c2 = Chalan('Anri', t3, t4)
 
-q1 = Quesadillas('Guadalupe', t1, t2, t3, t4)
+q1 = Quesadillas('Irina', t1, t2, t3, t4)
 
 # funcion init donde se crea el queue y cada uno de los threads
 def init():
@@ -455,7 +455,7 @@ def init():
     sqs.purge_queue(QueueUrl=queue_url)
 
     # abrimos el archivo de tacos.json para rellenar el queue con las ordenes de ese archivo
-    with open('TaquerisOS-main/tacos.json') as f:
+    with open('TaqueriaOS-main/data.json') as f:
         data = json.load(f)
 
     # mandamos todas las ordenes del json al Queue de SQS
