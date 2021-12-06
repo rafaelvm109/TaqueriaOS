@@ -1,0 +1,1476 @@
+[
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 0,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "0-0",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 72,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "0-1",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 76,
+                "ingredients": [
+                    "cebolla",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "0-2",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 67,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "0-3",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 59,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "0-4",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 15,
+                "ingredients": [
+                    "guacamole"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 1,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "1-0",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 84,
+                "ingredients": [
+                    "cilantro",
+                    "salsa",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "1-1",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 81,
+                "ingredients": []
+            },
+            {
+                "part_id": "1-2",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 73,
+                "ingredients": [
+                    "salsa",
+                    "cebolla",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "1-3",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 70,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "guacamole"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 2,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "2-0",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 85,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "2-1",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 84,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "2-2",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 90,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "2-3",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 41,
+                "ingredients": [
+                    "salsa",
+                    "cebolla",
+                    "cilantro"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 3,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "3-0",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 13,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "3-1",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 23,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "3-2",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 92,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "3-3",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 85,
+                "ingredients": []
+            },
+            {
+                "part_id": "3-4",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 42,
+                "ingredients": [
+                    "salsa",
+                    "cebolla",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "3-5",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 17,
+                "ingredients": []
+            },
+            {
+                "part_id": "3-6",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 61,
+                "ingredients": [
+                    "cebolla",
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "3-7",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 51,
+                "ingredients": [
+                    "guacamole",
+                    "cilantro",
+                    "cebolla"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 4,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "4-0",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 97,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "4-1",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 64,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "guacamole"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 5,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "5-0",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 41,
+                "ingredients": [
+                    "guacamole",
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "5-1",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 83,
+                "ingredients": [
+                    "cebolla",
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "5-2",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 74,
+                "ingredients": [
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "5-3",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 84,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "5-4",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 0,
+                "ingredients": []
+            },
+            {
+                "part_id": "5-5",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 66,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "5-6",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 75,
+                "ingredients": []
+            },
+            {
+                "part_id": "5-7",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 76,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "5-8",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 63,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 6,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "6-0",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 28,
+                "ingredients": []
+            },
+            {
+                "part_id": "6-1",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 80,
+                "ingredients": []
+            },
+            {
+                "part_id": "6-2",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 17,
+                "ingredients": [
+                    "cilantro",
+                    "cebolla",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "6-3",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 3,
+                "ingredients": []
+            },
+            {
+                "part_id": "6-4",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 72,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 7,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "7-0",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 21,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "7-1",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 69,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "7-2",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 17,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "7-3",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 27,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "7-4",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 9,
+                "ingredients": [
+                    "cilantro",
+                    "guacamole",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "7-5",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 83,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "7-6",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 67,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "7-7",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 23,
+                "ingredients": [
+                    "cebolla",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "7-8",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 30,
+                "ingredients": [
+                    "cebolla",
+                    "salsa"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 8,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "8-0",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 16,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "8-1",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 72,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "8-2",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 42,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "8-3",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 29,
+                "ingredients": [
+                    "cilantro",
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "8-4",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 39,
+                "ingredients": [
+                    "guacamole",
+                    "cilantro",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "8-5",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 83,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "8-6",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 96,
+                "ingredients": []
+            },
+            {
+                "part_id": "8-7",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 84,
+                "ingredients": [
+                    "salsa"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 9,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "9-0",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 42,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 10,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "10-0",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 50,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "10-1",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 95,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "10-2",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 21,
+                "ingredients": [
+                    "salsa"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 11,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "11-0",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 10,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "11-1",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 53,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "11-2",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 24,
+                "ingredients": [
+                    "cebolla",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "11-3",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 18,
+                "ingredients": [
+                    "cebolla",
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "11-4",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 44,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 12,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "12-0",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 48,
+                "ingredients": [
+                    "cilantro",
+                    "salsa",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "12-1",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 88,
+                "ingredients": []
+            },
+            {
+                "part_id": "12-2",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 40,
+                "ingredients": []
+            },
+            {
+                "part_id": "12-3",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 58,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "12-4",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 55,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "12-5",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 96,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "12-6",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 33,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "12-7",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 35,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 13,
+        "status": "open",
+        "orden": []
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.310633",
+        "request_id": 14,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "14-0",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 46,
+                "ingredients": [
+                    "cebolla",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "14-1",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 18,
+                "ingredients": [
+                    "cilantro",
+                    "salsa",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "14-2",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 72,
+                "ingredients": []
+            },
+            {
+                "part_id": "14-3",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 57,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "14-4",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 4,
+                "ingredients": [
+                    "cilantro",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "14-5",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 27,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "14-6",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 73,
+                "ingredients": [
+                    "cebolla",
+                    "guacamole",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "14-7",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 8,
+                "ingredients": [
+                    "guacamole"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 15,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "15-0",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 50,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "15-1",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 98,
+                "ingredients": [
+                    "salsa",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "15-2",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 74,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "15-3",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 5,
+                "ingredients": []
+            },
+            {
+                "part_id": "15-4",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 33,
+                "ingredients": [
+                    "cebolla",
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "15-5",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 74,
+                "ingredients": [
+                    "guacamole",
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "15-6",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 16,
+                "ingredients": [
+                    "guacamole",
+                    "cilantro"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 16,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "16-0",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 8,
+                "ingredients": []
+            },
+            {
+                "part_id": "16-1",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 12,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "16-2",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 1,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "16-3",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 22,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "16-4",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 8,
+                "ingredients": []
+            },
+            {
+                "part_id": "16-5",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 13,
+                "ingredients": [
+                    "salsa",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "16-6",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 93,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "16-7",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 46,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "16-8",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 9,
+                "ingredients": [
+                    "guacamole",
+                    "salsa"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 17,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "17-0",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 67,
+                "ingredients": [
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "17-1",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 77,
+                "ingredients": [
+                    "cebolla",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "17-2",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 44,
+                "ingredients": [
+                    "cilantro",
+                    "salsa",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "17-3",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 54,
+                "ingredients": [
+                    "cebolla",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "17-4",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 47,
+                "ingredients": [
+                    "salsa",
+                    "cebolla",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "17-5",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 78,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 18,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "18-0",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 82,
+                "ingredients": [
+                    "cebolla",
+                    "salsa",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "18-1",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 63,
+                "ingredients": [
+                    "cebolla",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "18-2",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 97,
+                "ingredients": []
+            },
+            {
+                "part_id": "18-3",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 75,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "18-4",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 1,
+                "ingredients": [
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "18-5",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 19,
+                "ingredients": [
+                    "guacamole",
+                    "cilantro"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 19,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "19-0",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 75,
+                "ingredients": [
+                    "cilantro",
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "19-1",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 77,
+                "ingredients": [
+                    "cilantro",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "19-2",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 99,
+                "ingredients": [
+                    "guacamole"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 20,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "20-0",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 95,
+                "ingredients": []
+            },
+            {
+                "part_id": "20-1",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 81,
+                "ingredients": [
+                    "cilantro",
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "20-2",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 85,
+                "ingredients": []
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 21,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "21-0",
+                "type": "taco",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 53,
+                "ingredients": [
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "21-1",
+                "type": "taco",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 12,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "21-2",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 90,
+                "ingredients": [
+                    "salsa",
+                    "cilantro",
+                    "guacamole"
+                ]
+            },
+            {
+                "part_id": "21-3",
+                "type": "quesadilla",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 74,
+                "ingredients": [
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "21-4",
+                "type": "quesadilla",
+                "meat": "suadero",
+                "status": "open",
+                "quantity": 39,
+                "ingredients": []
+            },
+            {
+                "part_id": "21-5",
+                "type": "quesadilla",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 98,
+                "ingredients": []
+            },
+            {
+                "part_id": "21-6",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 17,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla"
+                ]
+            }
+        ]
+    },
+    {
+        "datetime": "2021-11-13 20:18:16.311632",
+        "request_id": 22,
+        "status": "open",
+        "orden": [
+            {
+                "part_id": "22-0",
+                "type": "taco",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 48,
+                "ingredients": [
+                    "salsa"
+                ]
+            },
+            {
+                "part_id": "22-1",
+                "type": "taco",
+                "meat": "asada",
+                "status": "open",
+                "quantity": 83,
+                "ingredients": [
+                    "salsa",
+                    "cilantro"
+                ]
+            },
+            {
+                "part_id": "22-2",
+                "type": "quesadilla",
+                "meat": "tripa",
+                "status": "open",
+                "quantity": 58,
+                "ingredients": []
+            },
+            {
+                "part_id": "22-3",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 30,
+                "ingredients": [
+                    "salsa",
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "22-4",
+                "type": "taco",
+                "meat": "cabeza",
+                "status": "open",
+                "quantity": 59,
+                "ingredients": [
+                    "guacamole",
+                    "cebolla"
+                ]
+            },
+            {
+                "part_id": "22-5",
+                "type": "quesadilla",
+                "meat": "adobada",
+                "status": "open",
+                "quantity": 49,
+                "ingredients": [
+                    "cilantro"
+                ]
+            }
+        ]
+    }
+]
